@@ -16,7 +16,7 @@
 title: January Getting Started Guide
 email: info@kichwacoders.com
 description: > # this means to ignore newlines until "baseurl:"
-This site regroups the different posts allowing the use of the January project
+  This site regroups the different posts allowing the use of the January project
 baseurl: "" # the subpath of your site, e.g. /blog
 url: "" # the base hostname & protocol for your site, e.g. http://example.com
 twitter_username: kichwacoders
