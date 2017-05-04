@@ -4,3 +4,5 @@
 # See: https://jekyllrb.com/docs/themes/#overriding-theme-defaults
 layout: home
 ---
+
+ICI TU MET CE QUE TU VEUX SUR TA PAGE D'ACCUEIL
