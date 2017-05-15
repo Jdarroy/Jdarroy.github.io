@@ -1,0 +1,12 @@
+<header class="header"{% if page.img %} style="background-image:url(/img/{{ page.img }})"{% endif %}>
+  <div class="l-container">
+      <a href="{{site.url}}/" class="header-logo">
+          <img src="{{site.url}}/img/logo.png" alt="Logo">
+      </a>
+      <nav class="menu">
+          <a href="{{site.url}}/" class="menu-item">Accueil</a>
+          <a href="{{site.url}}/about/" class="menu-item">About</a>
+      </nav>
+      <div class="cb"></div>
+  </div>
+</header>
