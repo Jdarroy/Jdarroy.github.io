@@ -4,6 +4,7 @@ title:  "Import January in ItelliJ"
 date:   2017-05-03 14:13:35 +0100
 categories: jekyll update
 permalink: /import-january/
+img:    "uploads/intellij.jpg"
 ---
 # How to import January in IntelliJ
 
