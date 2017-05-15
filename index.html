@@ -10,7 +10,7 @@ layout: default
 
 
         <div class="posts">
-            {% for post in paginator.posts limit:4 %}
+            {% for post in paginator.posts %}
             <div class="post">
                 <a href="{{ post.url }}" class="post-thumb">
                     <img src="/img/{{ post.img }}" alt="{{ post.title }}" width="555" height="300">
