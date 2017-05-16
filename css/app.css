@@ -492,9 +492,13 @@ input, textarea, button {
   padding: 0;
   color: #0d0d0d;
   line-height: 43px; }
-  .contact-list .icon {
-    margin-right: 20px; }
-  .contact-list li {
-    margin: 0;
-    padding: 0;
-    list-style: none; }
+.contact-list .icon {
+  margin-right: 20px; }
+.contact-list li {
+  margin: 0;
+  padding: 0;
+  list-style: none; }
+
+.pagination{
+  padding-top: 50px;
+}
