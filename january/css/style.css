@@ -32,6 +32,13 @@ body {
 a { cursor: pointer; }
 /* a:hover { text-decoration: underline; } */
 
+.l-container {
+  width: 1170px;
+  margin: 0 auto;
+  z-index: 5;
+  position: relative;
+  overflow: hidden;
+  *zoom: 1; }
 
 /* This is a custom space to add the white horizontal bars between sections */
 .white-spacer { position: relative; z-index: 3; background: #fff; padding: 25px; }
@@ -97,42 +104,11 @@ a { cursor: pointer; }
 .footer-nav a { font-size: 16px; color: #B0F7D5; text-decoration: none; }
 .footer-nav a:hover { color: #ffba60; }
 
-.contacts { font-size: 15px; color: #fff; }
-.contacts p { line-height: 1.3; }
-.contacts .phone { margin-top: 21px; font-size: 18px; line-height: 1.55; }
-.contacts .phone ~ .phone { margin: 0; }
-
-.footer-socials ul { overflow: hidden; list-style: none outside none; }
-.footer-socials li { float: left; }
-.footer-socials li ~ li { margin-left: 2px; }
-.social-label { display: block; margin: 10px 0 18px; font-size: 20px; color: #fff; }
-
-.link-facebok,
-.link-twitter,
-.link-blog { overflow: hidden; display: block; width: 53px; height: 53px; background: url(images/sprite.png) no-repeat; border: 2px solid #fff; border-radius: 5px; text-indent: 100%; white-space: nowrap; }
-.link-facebok { background-position: -284px -82px; }
-.link-twitter { background-position: -325px -85px; }
-.link-blog { background-position: -246px -81px; }
-.link-facebok:hover,
-.link-twitter:hover,
-.link-blog:hover  { background-color: #fe9915; border-color: #fe9915; }
-
 /* font awesome chars see http://astronautweb.co/snippet/font-awesome/ */
 .footer a { color:#B0F7D5; vertical-align: middle; }
 .lnk-footer { padding-left: 10px; padding-right: 10px; font-size:16px; color: #B0F7D5;}
-.btn-social { padding-left: 5px; font-size:30px; }
-.fa{display:inline-block;font-family:FontAwesome;font-style:normal;font-weight:normal;line-height:1;-webkit-font-smoothing:antialiased;-moz-osx-font-smoothing:grayscale}
-.fa-twitter-square:before{content:"\f081"; color: #fff;}
-.fa-rss-square:before{content:"\f143 "; color: #fff;}
-.fa-google-plus-square:before{content:"\f0d4"; color: #fff;}
-.fa-facebook-square:before{content:"\f082"; color: #fff;}
-.fa-youtube-square:before{content:"\f166"; color: #fff;}
 
-.percentage-content { padding-top: 25px; }
 .footer-toggler { display: none; }
-
-.mfp-iframe-holder { padding: 0 70px; }
-.mfp-iframe-holder .mfp-content { max-width: 1400px; }
 
 @media (max-width: 1200px) {
 	.benefit-entry { padding-right: 13px; padding-left: 13px; }
