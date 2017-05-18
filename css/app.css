@@ -154,7 +154,7 @@ input, textarea, button {
   display: block;
   float: left; }
 
-.container{
+#header-nav {
   background-color: #000;
 }
 
