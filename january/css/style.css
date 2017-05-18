@@ -30,6 +30,11 @@ body {
   color: #737373; }
 
 a { cursor: pointer; }
+/* a:hover { text-decoration: underline; } */
+
+
+/* This is a custom space to add the white horizontal bars between sections */
+.white-spacer { position: relative; z-index: 3; background: #fff; padding: 25px; }
 
 
 .header-logo {
