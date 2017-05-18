@@ -37,55 +37,6 @@ a { cursor: pointer; }
 .white-spacer { position: relative; z-index: 3; background: #fff; padding: 25px; }
 
 
-.header-logo {
-  display: block;
-  float: left; }
-
-.nav .affix-top & .dropdown-menu { background-color: rgba(255, 255, 255, 0.75);}
-.nav .affix & .dropdown-menu { background-color: rgba(255, 255, 255);}
-
-.nav .dropdown:hover { display: block; border-radius: 5px; }
-.nav .dropdown:hover a { color: #0184a3; }
-.nav .dropdown:hover ul { color: #0184a3; display: block; border: 1px; }
-
-.nav .dropdown li a:hover { color: #faa635; }
-.nav .dropdown li a { color: #faa635; }
-.nav .dropdown ul a { color: #fff; background-color: #fff; }
-.nav .dropdown ul a:hover { color: #faa635; }
-
-.navbar-nav > li > .dropdown-menu { border-radius: 4px; }
-
-.navbar.affix { position: fixed; background: #fff; }
-.navbar.affix .navbar-nav > li > a { color: #0184a3; }
-.navbar.affix .navbar-nav > li > a:hover,
-.navbar.affix .navbar-nav > li > a:focus { color: #faa635; }
-.navbar.affix .navbar-nav .dropdown-menu { border: 0; }
-
-.nav-mobile { position: fixed; top: 0; right: 0; width: 70%; height: 100%; overflow: auto; background: #faa635; z-index: 1; display: none; }
-.nav-mobile ul { list-style: none outside none; display: block; margin-bottom: 0; }
-.nav-mobile a { display: block; color: #fff; padding: 10px; }
-.nav-mobile a:hover { text-decoration: none; background: #e39731; }
-.nav-mobile ul ul a { padding: 10px 15px; }
-.nav-mobile > ul > li > a { font-size: 20px; }
-
-/* ==========================================================================
-	#Intro - That is, the picture and text in the middle!
-========================================================================== */
-.intro { position: relative; z-index: 1; min-height: 626px; }
-.intro-image { background: #000;position: absolute; top: 80px; left: 0; min-width: 100%; min-height: 100%; }
-.intro .container { position: absolute; top: 299px; width: 100%; z-index: 2; text-align: center; }
-.intro-image img { height: 626px; width: 100%; }
-
-/* This is the style of the main, white "Eclipse ICE" text */
-.intro-content h1 { margin: 33px 0 0; font-family: 'Dax-Regular', sans-serif; font-size: 55px; color: #fff; }
-/* This is the style of the subtitle */
-.intro-content p { margin-bottom: 40px; font-size: 24px; color: #B0F7D5; }
-.intro-actions a { display: inline-block; margin-bottom: 61px; font-size: 16px; color: #fff; text-decoration: none; }
-
-.fsr-container { overflow: hidden; background-repeat: no-repeat; background-size: cover; }
-.fsr-image { position: absolute; }
-.fsr-hidden { display: none; }
-
 /* ==========================================================================
 	#Section What is ICE?
 ========================================================================== */
