@@ -71,111 +71,13 @@ a { cursor: pointer; }
 .section-with-image-actions { margin-top: 26px; }
 .section-with-image-actions .btn-default { min-width: 287px; margin-bottom: 10px; padding: 7px 22px 9px 22px; border-width: 2px; }
 
-/* ==========================================================================
-	#Section Services
-========================================================================== */
-.section-services { padding: 45px 0 39px; background: #faa635; }
-.section-services .item { padding-top: 5px; text-align: center; }
-/* .section-services .item ~ .item { background: url(images/services-bg.png) 0 0 no-repeat; } */
-.section-services .item-ico-wrapper { display: inline-block; width: 99px; height: 99px; padding-top: 19px; background: #0087b1; border-radius: 9px; text-align: center; }
-.section-services a { display: block; text-decoration: none; }
-.section-services a:hover strong { color: #0087b1; }
-.section-services a:hover p { color: #0087b1; }
-.section-services a strong { display: block; margin: 10px 0 0; font-family: 'Dax-Regular', sans-serif; font-size: 37px; color: #585858; text-decoration: none; }
-.section-services p { font-size: 23px; color: #585858; }
-
-/* ==========================================================================
-	#Section Demo
-========================================================================== */
-.section-demo { padding: 67px 0 46px; background: #0184a3 url(images/section-demo-s.png) 0 bottom no-repeat; color: #fff; }
-.section-demo-content h2 { margin: -5px 0 1px; font-family: 'Dax-Regular', sans-serif; font-size: 45px; font-weight: 800; }
-/* .section-demo-content h4 { margin: 0 0 14px; font-family: 'Dax-Regular', sans-serif; font-size: 38px; } */
-.section-demo-content h4 { margin: 14px 0 14px 0; font-size: 21px; font-weight: 800; }
-.section-demo-content p { margin-bottom: 17px; font-size: 21px; }
-.section-demo-list p { margin-bottom: 12px; font-size: 19px; }
-.section-demo-list ul { list-style: none outside none; }
-.section-demo-list li ~ li { margin-top: 5px; }
-.section-demo-actions { margin-top: 17px; }
-.section-demo-actions .btn-default { padding: 7px 22px 9px 22px; border-width: 2px; }
-
-/* .section-demo-actions a { width: 600 } */
-.demo-btn { width: 200px }
-
-/* ==========================================================================
-	#Section Tutorials
-========================================================================== */
-.section-tutorials { padding: 58px 0 52px; background: #5d5d5d; color: #fff; }
-.section-tutorials-content h2 { margin: -5px 0 1px; font-family: 'Dax-Regular', sans-serif; font-size: 45px; font-weight: 800; }
-/* .section-tutorials-content h4 { margin: 0 0 14px; font-family: 'Dax-Regular', sans-serif; font-size: 38px; } */
-.section-tutorials-content h4 { margin: 14px 0 14px 0; font-size: 21px; color: #fff; font-weight: 800; }
-.section-tutorials-content p { margin-bottom: 17px; font-size: 21px; }
-.section-tutorials-list { list-style: none inside none; }
-.section-tutorials-list li ~ li { margin-top: 10px; }
-.section-tutorials-list a { display: inline-block; background: url(images/ico-tutorials.png) 0 2px no-repeat; color: #fff; line-height: 1.2; text-decoration: none; }
-.section-tutorials-list a span { display: inline-block; margin-left: 24px; }
-.section-tutorials-list a:hover { color: #faa635; }
-
-.section-tutorials-actions { margin-top: 23px; }
-.section-tutorials-actions .btn-default { padding: 7px 22px 9px 22px; border-width: 2px; }
-
-/* ==========================================================================
-	#Section Features
-========================================================================== */
-.section-features { padding: 34px 0 58px; }
-.section-features .section-head { text-align: center; }
-.section-features .section-head h3 { display: inline-block; margin-bottom: 50px; padding-bottom: 21px; border-bottom: 1px solid #e7e7e7; font-family: 'Dax-Regular', sans-serif; font-size: 45px; color: #5d5d5d; text-align: center; }
-.section-features .section-head h3 span { color: #0082a1; font-weight: bold; }
-.feature { border-bottom: 1px solid #e7e7e7; font-size: 18px; }
-.feature ~ .feature { margin-top: 39px; }
-.feature h4 { margin: 5px 0 11px; font-size: 36px; color: #0082a1; }
-.feature p { line-height: 1.28em; }
-
-/* ==========================================================================
-	#Section Testimonials
-========================================================================== */
-.section-testimonials { padding: 27px 0 56px; background: #f2f2f2;  float: center;}
-.section-testimonials .section-head h3 { margin-bottom: 36px; font-family: 'Dax-Regular', sans-serif; font-size: 45px; color: #5d5d5d; text-align: center; }
-.section-testimonials .section-head h3 span { color: #0082a1; font-weight: bold; }
-
-.list-partners { overflow: hidden; margin-bottom: 47px; list-style: none outside none; }
-.list-partners li { float: left; }
-.list-partners li  ~ li { margin-left: 45px; }
-
-.testimonial blockquote { position: relative; min-height: 220px; margin-bottom: 29px; padding: 64px 35px 25px; background: #fff url(images/blockquote.png) 36px 19px no-repeat; border: 1px solid #dedede; border-radius: 2px; font-size: 19px; color: #989898; font-family: "Open Sans Italic", sans-serif; }
-.testimonial blockquote a { position: relative; bottom: 0; }
-.testimonial .blockquote-triangle { position: absolute; left: 57px; bottom: -20px; width: 21px; height: 20px; background: url(images/blockquote-triangle.png) 0 0 no-repeat; }
-
-.author { overflow: hidden; }
-.author-image,
-.author-content { float: left; }
-
-.author-image { width: 56px; height: 56px; margin-right: 10px; }
-.author-image img { border-radius: 50%;}
-.author-name { font-size: 24px; color: #0082a1; }
-.author-position { font-size: 16px; color: #888; }
 
 /* ==========================================================================
 	#Section Contact
 ========================================================================== */
 .section-contact { padding: 10px 0 30px; background: #474747; font-family: 'Dax-Regular', sans-serif; font-size: 45px; color: #fff; text-align: center; }
 .contact a { font-size: 24px; font-family: 'Dax-Regular', sans-serif; font-size: 18px; color: #fff; text-align: center;}
-.form-contact .form-head { margin-bottom: 20px; text-align: center; }
-.form-contact h3 { margin-bottom: 3px; font-family: 'Dax-Regular', sans-serif; font-size: 45px; color: #fff; }
-.form-contact h3 span { color: #fe9915; font-weight: bold; }
-.form-contact p { font-size: 18px; color: #fff; }
 
-.form-contact .has-error input { border-width: 3px; }
-
-.form-contact .field,
-.form-contact .textarea { margin-top: 11px; padding-left: 40px; font-size: 15px; }
-.form-contact .form-control { height: 45px; }
-.form-contact .textarea { height: 84px; resize: none; }
-
-#fname { background: #fff url(images/ico-user.png) 14px 14px no-repeat; }
-#phone { background: #fff url(images/ico-phone.png) 14px 14px no-repeat; }
-#lname { background: #fff url(images/ico-user.png) 14px 14px no-repeat; }
-#email { background: #fff url(images/ico-mail.png) 12px 14px no-repeat; }
-#message { background: #fff url(images/ico-pen.png) 12px 7px no-repeat; }
 
 .form-contact .checkbox { margin-top: 23px; }
 .form-label { font-size: 19px; color: #fff; }
