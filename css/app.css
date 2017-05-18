@@ -160,7 +160,12 @@ input, textarea, button {
   margin:  20px 100px 20px 100px;
 }
 */
-#header-nav img{
+#eclipse-logo{
+  width: 250px;
+  height: auto;
+}
+
+#science-logo{
   width: 175px;
   height: auto;
 }
