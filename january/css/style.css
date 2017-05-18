@@ -132,6 +132,14 @@ div.eclipse-con{
 /* woud be nice to have dark transparent menu background when menu is displayed over header image, and white background otherwise
 .nav .dropdown:hover { background-color: rgba(96,96,96,0.8); display: block; border-top-left-radius: 5px; border-top-right-radius: 5px; }
 */
+.menu{
+	color: #fff;
+}
+
+.header-logo {
+  display: block;
+  float: left; }
+
 .nav .affix-top & .dropdown-menu { background-color: rgba(255, 255, 255, 0.75);}
 .nav .affix & .dropdown-menu { background-color: rgba(255, 255, 255);}
 
