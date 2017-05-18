@@ -151,9 +151,12 @@ input, textarea, button {
     border-color: #FFF; }
 
 .header-logo {
-  background-color: #fff;
   display: block;
   float: left; }
+
+.header-nav{
+  background-color: #fff;
+}
 
 .header-baseline {
   margin: 150px 0 80px 0;
