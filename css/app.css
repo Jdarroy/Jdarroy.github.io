@@ -145,14 +145,13 @@ input, textarea, button {
   -moz-background-size: cover;
   -o-background-size: cover;
   -webkit-background-size: cover;
-  background-color: #fff;
   background-size: cover; }
   .header .btn {
     color: #FFF;
     border-color: #FFF; }
 
 .header-logo {
-  /*background-color: #fff;*/
+  background-color: #fff;
   display: block;
   float: left; }
 
