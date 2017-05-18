@@ -40,6 +40,10 @@ a { cursor: pointer; }
   overflow: hidden;
   *zoom: 1; }
 
+.header-logo {
+  display: block;
+  float: left; }
+
 	#eclispe-logo{
 	  width: 250px;
 	  height: auto;
