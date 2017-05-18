@@ -153,13 +153,7 @@ input, textarea, button {
 .header-logo {
   display: block;
   float: left; }
-/*
-#header-nav {
-  background-color: #fff;
-  padding: 20px 100px 20px 100px;
-  margin:  20px 100px 20px 100px;
-}
-*/
+
 #eclispe-logo{
   width: 250px;
   height: auto;
