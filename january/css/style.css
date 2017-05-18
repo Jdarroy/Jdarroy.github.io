@@ -40,6 +40,16 @@ a { cursor: pointer; }
   overflow: hidden;
   *zoom: 1; }
 
+	#eclispe-logo{
+	  width: 250px;
+	  height: auto;
+	}
+
+	#science-logo{
+	  width: 175px;
+	  height: auto;
+	}
+
 /* This is a custom space to add the white horizontal bars between sections */
 .white-spacer { position: relative; z-index: 3; background: #fff; padding: 25px; }
 
