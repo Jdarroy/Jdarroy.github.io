@@ -153,13 +153,13 @@ input, textarea, button {
 .header-logo {
   display: block;
   float: left; }
-
+/*
 #header-nav {
   background-color: #fff;
-/*  padding: 20px 100px 20px 100px;*/
+  padding: 20px 100px 20px 100px;
   margin:  20px 100px 20px 100px;
 }
-
+*/
 .header-baseline {
   margin: 150px 0 80px 0;
   font-weight: 300;
