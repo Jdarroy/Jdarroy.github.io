@@ -1,31 +1,31 @@
 ---
 layout: default
-permalink: /docs/
+permalink: /getting-started/
 ---
 <section class="section">
     <div class="l-container">
         <div class="section-title">
             <h1>Blog</h1>
-            <p>description of the website</p>
+            <p>description of the WWebsite</p>
         </div>
 
 
         <div class="posts">
-            {% for docs in site.docs %}
+            {% for post in site.docs %}
             <div class="post">
-                <a href="{{ docs.url }}" class="post-thumb">
-                    <img src="/img/{{ docs.img }}" alt="{{ docs.title }}" width="555" height="300">
+                <a href="{{ post.url }}" class="post-thumb">
+                    <img src="/img/{{ post.img }}" alt="{{ post.title }}" width="555" height="300">
                 </a>
                 <div class="post-icon">
                     <i class="icon icon-pictures"></i>
                 </div>
                 <div class="post-content">
-                    <h2 class="post-title"><a href="{{ docs.url }}">{{ docs.title }}</a></h2>
-                    <p>{{ docs.excerpt }}</p>
-                    <p><a href="{{ docs.url }}" class="btn btn-primary">Read on</a></p>
+                    <h2 class="post-title"><a href="{{ post.url }}">{{ post.title }}</a></h2>
+                    <p>{{ post.excerpt }}</p>
+                    <p><a href="{{ post.url }}" class="btn btn-primary">Read on</a></p>
                 </div>
                 <div class="post-meta">
-                    {{ docs.date | date:"%b %-d, %Y" }}<br>
+                    {{ post.date | date:"%b %-d, %Y" }}<br>
                 </div>
             </div>
             {% endfor %}
