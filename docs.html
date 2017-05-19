@@ -10,21 +10,21 @@ permalink: /docs/
         </div>
 
 
-        <div class="docss">
+        <div class="posts">
             {% for docs in site.docs %}
-            <div class="docs">
-                <a href="{{ docs.url }}" class="docs-thumb">
+            <div class="post">
+                <a href="{{ docs.url }}" class="post-thumb">
                     <img src="/img/{{ docs.img }}" alt="{{ docs.title }}" width="555" height="300">
                 </a>
-                <div class="docs-icon">
+                <div class="post-icon">
                     <i class="icon icon-pictures"></i>
                 </div>
-                <div class="docs-content">
-                    <h2 class="docs-title"><a href="{{ docs.url }}">{{ docs.title }}</a></h2>
+                <div class="post-content">
+                    <h2 class="post-title"><a href="{{ docs.url }}">{{ docs.title }}</a></h2>
                     <p>{{ docs.excerpt }}</p>
                     <p><a href="{{ docs.url }}" class="btn btn-primary">Read on</a></p>
                 </div>
-                <div class="docs-meta">
+                <div class="post-meta">
                     {{ docs.date | date:"%b %-d, %Y" }}<br>
                 </div>
             </div>
