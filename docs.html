@@ -1,0 +1,53 @@
+---
+layout: default
+permalink: /docs/
+---
+<section class="section">
+    <div class="l-container">
+        <div class="section-title">
+            <h1>Blog</h1>
+            <p>description of the website</p>
+        </div>
+
+
+        <div class="docss">
+            {% for docs in site.docs %}
+            <div class="docs">
+                <a href="{{ docs.url }}" class="docs-thumb">
+                    <img src="/img/{{ docs.img }}" alt="{{ docs.title }}" width="555" height="300">
+                </a>
+                <div class="docs-icon">
+                    <i class="icon icon-pictures"></i>
+                </div>
+                <div class="docs-content">
+                    <h2 class="docs-title"><a href="{{ docs.url }}">{{ docs.title }}</a></h2>
+                    <p>{{ docs.excerpt }}</p>
+                    <p><a href="{{ docs.url }}" class="btn btn-primary">Read on</a></p>
+                </div>
+                <div class="docs-meta">
+                    {{ docs.date | date:"%b %-d, %Y" }}<br>
+                </div>
+            </div>
+            {% endfor %}
+          </div>
+<!--
+          <div class="">
+            <p>_________________________</p>
+          </div>
+
+          <div class="pagination">
+            {% if paginator.previous_page %}
+              <a href="{{ paginator.previous_page_path }}" class="previous"><b>Previous</b></a>
+            {% else %}
+              <span class="previous">Previous</span>
+            {% endif %}
+            <span class="page_number ">Page: {{ paginator.page }} of {{ paginator.total_pages }}</span>
+            {% if paginator.next_page %}
+              <a href="{{ paginator.next_page_path }}" class="next"><b>Next</b></a>
+            {% else %}
+              <span class="next ">Next</span>
+            {% endif %}
+          </div>
+-->
+    </div>
+</section>
