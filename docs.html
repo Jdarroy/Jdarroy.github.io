@@ -1,17 +1,18 @@
 ---
 layout: default
+title: Docs
 permalink: /docs/
 ---
 <section class="section">
     <div class="l-container">
         <div class="section-title">
             <h1>Blog</h1>
-            <p>description of the Website</p>
+            <p>description of the website</p>
         </div>
 
 
         <div class="posts">
-            {% for post in site.docs %}
+            {% for post in site.documents %}
             <div class="post">
                 <a href="{{ post.url }}" class="post-thumb">
                     <img src="/img/{{ post.img }}" alt="{{ post.title }}" width="555" height="300">

@@ -2,11 +2,11 @@
 layout: post
 title:  "Get Started With January on The Command Line"
 date:   2017-05-03 14:13:35 +0100
-categories: jekyll update
-permalink: /get-started-with-january/
 img:    "uploads/commandline.jpg"
+categories: getting-started
 ---
-# Get Started With January on The Command Line
+
+In this post, we will see how to get started with January on the command line.
 
 ## Requirements
 

@@ -6,14 +6,14 @@
     <meta name="description" content="{{ site.description }}">
     <link rel="canonical" href="{{ page.url | replace:'index.html','' | prepend: site.baseurl | prepend: site.url }}">
 
+    <!-- Bootstrap CSS file link. This is Bootstrap 3.0.2, not 2.3.2! -->
+    <link rel="stylesheet" href="{{ "/css/bootstrap.min.css" | prepend: site.baseurl }}" type="text/css">
     <!-- Custom CSS -->
+    <link rel="stylesheet" href="{{ "/css/style.css" | prepend: site.baseurl }}" type="text/css">
     <link rel="stylesheet" href="{{ "/css/app.css" | prepend: site.baseurl }}">
     <link rel="icon" type="image/png" href="images/favicon.ico">
-    <!-- Bootstrap CSS file link. This is Bootstrap 3.0.2, not 2.3.2! -->
-    <link rel="stylesheet" href="css/bootstrap.min.css" type="text/css">
     <!-- Extra style file with custom settings from Eclipse Scouts -->
-    <link rel="stylesheet" href="css/ionicons.min.css" type="text/css">
-    <link rel="stylesheet" href="css/style.css" type="text/css">
+    <link rel="stylesheet" href="{{ "/css/ionicons.min.css" | prepend: site.baseurl }}" type="text/css">
     <!--[if lt IE 9]>
       <script src="http://html5shim.googlecode.com/svn/trunk/html5.js"></script>
     <![endif]-->

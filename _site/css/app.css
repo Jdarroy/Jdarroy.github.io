@@ -154,6 +154,16 @@ input, textarea, button {
   display: block;
   float: left; }
 
+#eclispe-logo{
+  width: 250px;
+  height: auto;
+}
+
+#science-logo{
+  width: 175px;
+  height: auto;
+}
+
 .header-baseline {
   margin: 150px 0 80px 0;
   font-weight: 300;

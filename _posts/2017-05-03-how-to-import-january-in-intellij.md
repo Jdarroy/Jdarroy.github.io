@@ -2,11 +2,9 @@
 layout: post
 title:  "Import January in ItelliJ"
 date:   2017-05-03 14:13:35 +0100
-categories: jekyll update
-permalink: /import-january/
 img:    "uploads/intellij.jpg"
+categories: getting-started
 ---
-# How to import January in IntelliJ
 
 In this tutorial, we will see how to import January in IntelliJ.
 
