@@ -1,7 +1,7 @@
 ---
 layout: post
 title:  "What is Jeykll and why do we use it?"
-date:   2017-04-30 11:15:03 +0100
+date:   2017-05-28 11:15:03 +0100
 img:    "uploads/jekyll.png"
 categories: docs
 ---
