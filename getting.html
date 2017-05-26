@@ -13,7 +13,7 @@ permalink: /getting-started/
 
         <div class="posts">
             {% for post in site.posts %}
-            {% if page.categories == docs %}
+            {% if page.categories == "getting-started" %}
             <div class="post">
                 <a href="{{ post.url }}" class="post-thumb">
                     <img src="/img/{{ post.img }}" alt="{{ post.title }}" width="555" height="300">
