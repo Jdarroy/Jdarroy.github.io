@@ -13,6 +13,7 @@ permalink: /getting-started/
 
         <div class="posts">
             {% for post in site.posts %}
+            {% if page.categories == docs %}
             <div class="post">
                 <a href="{{ post.url }}" class="post-thumb">
                     <img src="/img/{{ post.img }}" alt="{{ post.title }}" width="555" height="300">
@@ -29,6 +30,7 @@ permalink: /getting-started/
                     {{ post.date | date:"%b %-d, %Y" }}<br>
                 </div>
             </div>
+            {% endif %}
             {% endfor %}
           </div>
 <!--

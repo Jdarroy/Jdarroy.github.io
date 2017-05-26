@@ -2,7 +2,7 @@
 layout: post
 title: "Dataset Types"
 date:   2017-05-19 09:35:35 +0100
-categories: jekyll update
+categories: docs
 ---
 # Dataset Types
 
