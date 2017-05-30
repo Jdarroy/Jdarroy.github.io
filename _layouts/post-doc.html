@@ -31,13 +31,17 @@ layout: docs
                 <br>
                 <b>News</b>
               </div>
-              {% for post in paginator.posts %}
+              {% assign i = 0 %}
+              {% for post in site.posts %}
+              {% if i != 4 %}
               {% if post.categories contains 'docs' %}
               <div class="post">
                   <div class="post-content">
                       <h2 class="post-title"><a href="{{ post.url }}"><b>- </b>{{ post.title }}</a></h2>
                   </div>
               </div>
+              {% endif %}
+              {% assign i = i+1 %}
               {% endif %}
               {% endfor %}
               <h2 class="post-title"><a href="{{site.url}}/news/">See more ...</a></h2>
