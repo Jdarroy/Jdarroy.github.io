@@ -31,10 +31,9 @@ layout: docs
                 <br>
                 <b>News</b>
               </div>
-              {% assign i = 0 %}
               {% for post in site.posts %}
               <?php
-                for($i=0; $i<=10; $i++) {
+                for($i=0; $i<=3; $i++) {
                 {% if post.categories contains 'docs' %}
                   <div class="post">
                       <div class="post-content">
@@ -42,7 +41,6 @@ layout: docs
                         </div>
                       </div>
                 {% endif %}
-                {% endfor %}
                 }
               ?>
               {% endfor %}
