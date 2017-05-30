@@ -37,15 +37,15 @@ StringDataset | Takes String values,<br>e.g. "text" | [StringDatasetTest](https:
 
 Name | Description | More info
 ------|-------------|-----------
-CompoundByteDataset | Takes byte values |
+CompoundByteDataset | Takes byte values |    |
 ________________________________________ | ____________________________________________________________ | _______________________________________________ |
-CompoundDoubleDataset | Takes double values | [CompoundDoubleDatasetTest](https://github.com/eclipse/january/blob/master/org.eclipse.january.test/src/org/eclipse/january/dataset/CompoundDoubleDatasetTest.java)
+CompoundDoubleDataset | Takes double values | [CompoundDoubleDatasetTest](https://github.com/eclipse/january/blob/master/org.eclipse.january.test/src/org/eclipse/january/dataset/CompoundDoubleDatasetTest.java)    |
 ________________________________________ | ____________________________________________________________ | _______________________________________________ |
-CompoundFloatDataset | Takes float values |
+CompoundFloatDataset | Takes float values |    |
 ________________________________________ | ____________________________________________________________ | _______________________________________________ |
-CompoundIntegerDataset | Takes int values |
+CompoundIntegerDataset | Takes int values |    |
 ________________________________________ | ____________________________________________________________ | _______________________________________________ |
-CompoundLongDataset | Takes long values |
+CompoundLongDataset | Takes long values |    |
 ________________________________________ | ____________________________________________________________ | _______________________________________________ |
 CompoundShortDataset | Takes short values |
-________________________________________ | ____________________________________________________________ | _______________________________________________ |
+________________________________________ |    | ____________________________________________________________ | _______________________________________________ |
