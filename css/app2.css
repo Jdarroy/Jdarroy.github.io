@@ -263,6 +263,11 @@ input, textarea, button {
 /*------------------------------------*\
     $Background
 \*------------------------------------*/
+
+#lefile{
+  background: #fff;
+}
+
 .background {
   padding: 200px 0;
   text-align: center;
