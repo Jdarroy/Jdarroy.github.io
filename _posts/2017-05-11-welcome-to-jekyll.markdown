@@ -1,5 +1,5 @@
 ---
-layout: post
+layout: post-doc
 title:  "Welcome to Jekyll!"
 date:   2017-05-03 11:15:03 +0100
 categories: getting-started
