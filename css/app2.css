@@ -13,9 +13,7 @@ body {
   font-size: 16px;
   line-height: 1.75;
   font-family: "Open Sans", sans-serif;
-  color: #737373;
-  background: #6aa8dd
- }
+  color: #737373; }
 
 ::-webkit-selection {
   color: white;
@@ -213,7 +211,7 @@ input, textarea, button {
 
 .section {
   padding: 85px 0;
-  background-color: #FFF;
+  background-color: #6aa8dd;
   position: relative; }
   .section:before, .section:after {
     content: '';
