@@ -14,7 +14,7 @@ layout: docs
             <div class="title">
               ______________________
               <br>
-              <a href="{{site.url}}/getting-started/"><b>Getting Started</b></a>
+              <a><b>Getting Started</b></a>
             </div>
               {% for post in site.posts %}
               {% if post.categories contains 'getting-started' %}
@@ -29,7 +29,7 @@ layout: docs
               <div class="title">
                 ______________________
                 <br>
-                <a href="{{site.url}}/news/"><b>News</b></a>
+                <a><b>News</b></a>
               </div>
               {% for post in site.posts %}
               {% if post.categories contains 'docs' %}
@@ -40,12 +40,7 @@ layout: docs
               </div>
               {% endif %}
               {% endfor %}
-
-              <div class="title">
-                ______________________
-                <br>
-                <a href="{{site.url}}/news/">See more ...</a>
-              </div>
+              <a href="{{site.url}}/news/">See more ...</a>
             </div>
         </div>
     </div>
