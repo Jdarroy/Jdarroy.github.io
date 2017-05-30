@@ -209,6 +209,10 @@ input, textarea, button {
   .menu-item:hover, .menu-item.is-active {
     color: #000; }
 
+.section-content{
+  padding: 10px 10px 10px 10px
+}
+
 .section {
   padding: 85px 0;
   background-color: #dddddd;
