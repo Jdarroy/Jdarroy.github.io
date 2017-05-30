@@ -452,12 +452,16 @@ input, textarea, button {
     background-color: #f39c12; }
 
 .title{
-    font-size: 16px;
+    font-size: 14px;
     color: #f39c12;
 }
 
 .post-title{
-    font-size: 14px;
+    font-size: 12px;
+}
+
+.post-title :hover{
+    color: #f39c12;
 }
 
 /*
