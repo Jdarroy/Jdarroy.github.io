@@ -1,5 +1,5 @@
 ---
-layout: post
+layout: post-doc
 title:  "Import January in ItelliJ"
 date:   2017-05-03 14:13:35 +0100
 img:    "uploads/intellij.jpg"
