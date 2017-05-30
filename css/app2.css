@@ -451,6 +451,11 @@ input, textarea, button {
     left: 0;
     background-color: #f39c12; }
 
+.title{
+    font-size: 16px;
+    color: #f39c12;
+}
+
 .post-title{
     font-size: 14px;
 }
