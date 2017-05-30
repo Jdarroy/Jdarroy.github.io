@@ -2,7 +2,6 @@
 layout: post-doc
 title:  "What is Jeykll and why do we use it?"
 date:   2017-05-28 11:15:03 +0100
-img:    "uploads/jekyll.png"
 categories: docs
 ---
 **What is Jeykll and why do we use it?**

@@ -2,7 +2,6 @@
 layout: post-doc
 title:  "Get Started With January on The Command Line"
 date:   2017-05-03 14:13:35 +0100
-img:    "uploads/commandline.jpg"
 categories: getting-started
 ---
 
