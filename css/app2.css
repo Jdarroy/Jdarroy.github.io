@@ -450,6 +450,11 @@ input, textarea, button {
     bottom: 0;
     left: 0;
     background-color: #f39c12; }
+
+.post-title{
+    font-size: 5px;
+}
+
 /*
 .posts {
   margin: 0 -30px; }
