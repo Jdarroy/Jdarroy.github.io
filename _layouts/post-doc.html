@@ -12,14 +12,31 @@ layout: docs
         <div class="col-md-3">
           <div class="posts">
             <div class="title">
+              ______________________
               <b>Getting Started</b>
             </div>
               {% for post in site.posts %}
+              {% if post.categories contains 'getting-started' %}
               <div class="post">
                   <div class="post-content">
                       <h2 class="post-title"><a href="{{ post.url }}"><b>- </b>{{ post.title }}</a></h2>
                   </div>
               </div>
+              {% endif %}
+              {% endfor %}
+
+              <div class="title">
+                ______________________
+                <b>News</b>
+              </div>
+              {% for post in site.posts %}
+              {% if post.categories contains 'docs' %}
+              <div class="post">
+                  <div class="post-content">
+                      <h2 class="post-title"><a href="{{ post.url }}"><b>- </b>{{ post.title }}</a></h2>
+                  </div>
+              </div>
+              {% endif %}
               {% endfor %}
             </div>
         </div>
