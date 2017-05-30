@@ -36,7 +36,7 @@ StringDataset | Takes String values,<br>e.g. "text" | [StringDatasetTest](https:
 ## Compound Dataset Types
 
 Name | Description | More info
-------|-------------|-----------
+------|-------------|----------- |
 CompoundByteDataset | Takes byte values |    |
 ______________________________________________________________________ | ____________________________________________________________ | _______________________________________________ |
 CompoundDoubleDataset | Takes double values | [CompoundDoubleDatasetTest](https://github.com/eclipse/january/blob/master/org.eclipse.january.test/src/org/eclipse/january/dataset/CompoundDoubleDatasetTest.java)    |
