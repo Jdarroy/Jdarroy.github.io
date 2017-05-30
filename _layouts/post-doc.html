@@ -31,8 +31,8 @@ layout: docs
                 <br>
                 <b>News</b>
               </div>
-              {% for post in site.posts %}
               <?php
+              {% for post in site.posts %}
                 for($i=0; $i<=3; $i++) {
                 {% if post.categories contains 'docs' %}
                   <div class="post">
@@ -42,8 +42,8 @@ layout: docs
                       </div>
                 {% endif %}
                 }
-              ?>
               {% endfor %}
+              ?>
               <h2 class="post-title"><a href="{{site.url}}/news/">See more ...</a></h2>
             </div>
         </div>
