@@ -9,7 +9,7 @@ categories: getting-started
 ## Basic Dataset Types
 
 Name | Description | More info
-------|-------------|-----------
+---------------|---------------------------------------------|-------------------
 BooleanDataset | Takes boolean values,<br>e.g. true or false | [BooleanDatasetTest](https://github.com/eclipse/january/blob/master/org.eclipse.january.test/src/org/eclipse/january/dataset/BooleanDatasetTest.java)
 ByteDataset | Takes byte values,<br>e.g. 13 or -52 | [ByteDatasetTest](https://github.com/eclipse/january/blob/master/org.eclipse.january.test/src/org/eclipse/january/dataset/ByteDatasetTest.java)
 DoubleDataset | Takes double values,<br>e.g. 9.0 or -11.25 | [DoubleDatasetTest](https://github.com/eclipse/january/blob/master/org.eclipse.january.test/src/org/eclipse/january/dataset/DoubleDatasetTest.java)
