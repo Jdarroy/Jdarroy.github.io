@@ -1,7 +1,7 @@
 ---
 layout: post-doc
 title:  "Import January in ItelliJ"
-date:   2017-05-03 14:13:35 +0100
+date:   2017-04-29 09:00:00 +0100
 categories: getting-started
 ---
 
