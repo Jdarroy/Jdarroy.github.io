@@ -1,11 +1,11 @@
 @charset "CP850";
 /* Variable */
 /* Tools */
-/* Base 
+/* Base */
 * {
   -moz-box-sizing: border-box;
   -webkit-box-sizing: border-box;
-  box-sizing: border-box; }*/
+  box-sizing: border-box; }
 
 body {
   margin: 0;
