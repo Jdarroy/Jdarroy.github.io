@@ -5,7 +5,7 @@ permalink: /about/
 ---
 
 # PEOPLE
-
+----
 ## Project Leads:
 
 Jonah Graham
@@ -19,8 +19,9 @@ Jay Jay Billings
 Matthew Gerring
 Mentors:
 Jay Billings
-
+----
 ## Interested Parties:
+
 This project is of interest to members of the Science Working Group and the following projects:
 
 EAVP
@@ -28,14 +29,15 @@ Triquetrum
 ICE
 DAWNSci
 UOMo
-
+----
 # SOURCE CODE
-
+----
 ## Initial Contribution:
+
 The initial contribuiton is expected to made in the first half of 2016.
 
 The initial contribution consists of two parts:
-
+----
 ## Part 1:
 
 The numeric datastructures are a fork of the Eclipse Dawnsci project that extracts Datasets and its associated mathematical libraries. As per the DAWNSci project proposal:
@@ -54,7 +56,7 @@ org.apache.commons.lang
 org.slf4j.api
 org.junit
 The initial contribution is currently actively developed by Diamond Light Source and collaborated on by Diamond Light Source, Kichwa Coders, and European Synchrotron Radiation Facility, among others. In the URLs below the https://github.com/jonahkichwacoders repositories are a fork of the eclipse/dawnsci repository. The fork was created to allow easy refactoring and demonstrate code structure.
-
+----
 ## Part 2:
 
 The non-numeric datastructures are a fork of the Eclipse ICE project.
