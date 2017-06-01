@@ -225,21 +225,21 @@ input, textarea, button {
     left: 0;
     right: 0;
     bottom: 0;
-    z-index: 4;/*
+    z-index: 4;
     -moz-transform-origin: 0 0;
     -ms-transform-origin: 0 0;
     -webkit-transform-origin: 0 0;
-    transform-origin: 0 0;
+    transform-origin: 0 0;/*
     -moz-transform: skewY(-2deg);
     -ms-transform: skewY(-2deg);
     -webkit-transform: skewY(-2deg);
   transform: skewY(-2deg); */}
   .section:after {
-    background-color: #dddddd;/*
+    background-color: #dddddd;
     -moz-transform-origin: 100% 0;
     -ms-transform-origin: 100% 0;
     -webkit-transform-origin: 100% 0;
-  transform-origin: 100% 0;*/ }
+    transform-origin: 100% 0; }
 
 .section-title {
   margin-bottom: 140px;
