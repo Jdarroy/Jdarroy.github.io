@@ -12,7 +12,7 @@ permalink: /news/
 
 
         <div class="posts">
-            {% for post in site.posts %}
+            {% for post in paginator.posts %}
             {% if post.categories contains 'docs' %}
             <div class="post">
                 <a href="{{ post.url }}" class="post-thumb">
