@@ -39,7 +39,6 @@ strong {
 
 h2 {
   margin: 0 0 12px 0;
-  text-transform: uppercase;
   font-size: 20px;
   line-height: 1.25;
   color: #000; }
@@ -211,12 +210,12 @@ input, textarea, button {
 
 .section {
   padding: 85px 0;
-  background-color: #dddddd;
+  background-color: #FFF;
   position: relative; }
   .section:before, .section:after {
     content: '';
     display: block;
-    background-color: #dddddd;
+    background-color: #FFF;
     position: absolute;
     top: 0;
     left: 0;
@@ -232,7 +231,7 @@ input, textarea, button {
     -webkit-transform: skewY(-2deg);
     transform: skewY(-2deg); }
   .section:after {
-    background-color: #dddddd;
+    background-color: #FFF;
     -moz-transform-origin: 100% 0;
     -ms-transform-origin: 100% 0;
     -webkit-transform-origin: 100% 0;
@@ -263,22 +262,6 @@ input, textarea, button {
 /*------------------------------------*\
     $Background
 \*------------------------------------*/
-
-#lefile{
-  background: #fff;
-  border-radius: 10px;
-}
-
-.background {
-  padding: 200px 0;
-  text-align: center;
-  color: #dddddd;
-  background: url(img/bg1.jpg) center top fixed;
-  -moz-background-size: cover;
-  -o-background-size: cover;
-  -webkit-background-size: cover;
-  background-size: cover; }
-/*
 .background {
   padding: 200px 0;
   text-align: center;
@@ -287,7 +270,7 @@ input, textarea, button {
   -moz-background-size: cover;
   -o-background-size: cover;
   -webkit-background-size: cover;
-  background-size: cover; }*/
+  background-size: cover; }
 
 .background-2 {
   background-image: url(img/bg2.jpg); }
@@ -456,22 +439,6 @@ input, textarea, button {
     bottom: 0;
     left: 0;
     background-color: #f39c12; }
-
-  }
-
-  .title{
-      font-size: 16px;
-      color: #f39c12;
-  }
-
-  .post-title{
-      font-size: 14px;
-  }
-
-  .post-title :hover{
-      color: #f39c12;
-  }
-
 
 .posts {
   margin: 0 -30px; }
