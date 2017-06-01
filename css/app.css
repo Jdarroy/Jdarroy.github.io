@@ -137,7 +137,7 @@ input, textarea, button {
 
 /* Modules */
 .header {
-  padding: 70px 0 70px 0;
+  padding: 70px 0 165px 0;
   color: #FFF;
   text-align: center;
   background: url(img/header.jpg) center top fixed;
@@ -220,7 +220,7 @@ input, textarea, button {
     top: 0;
     left: 0;
     right: 0;
-    bottom: 0;
+    bottom: 0;/*
     z-index: 4;
     -moz-transform-origin: 0 0;
     -ms-transform-origin: 0 0;
@@ -236,7 +236,7 @@ input, textarea, button {
     -ms-transform-origin: 100% 0;
     -webkit-transform-origin: 100% 0;
     transform-origin: 100% 0; }
-
+*/
 .section-title {
   margin-bottom: 140px;
   overflow: hidden;
