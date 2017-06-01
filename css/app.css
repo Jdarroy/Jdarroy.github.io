@@ -263,6 +263,22 @@ input, textarea, button {
 /*------------------------------------*\
     $Background
 \*------------------------------------*/
+
+#lefile{
+  background: #fff;
+  border-radius: 10px;
+}
+
+.background {
+  padding: 200px 0;
+  text-align: center;
+  color: #dddddd;
+  background: url(img/bg1.jpg) center top fixed;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  -webkit-background-size: cover;
+  background-size: cover; }
+/*
 .background {
   padding: 200px 0;
   text-align: center;
@@ -271,7 +287,7 @@ input, textarea, button {
   -moz-background-size: cover;
   -o-background-size: cover;
   -webkit-background-size: cover;
-  background-size: cover; }
+  background-size: cover; }*/
 
 .background-2 {
   background-image: url(img/bg2.jpg); }
@@ -440,6 +456,17 @@ input, textarea, button {
     bottom: 0;
     left: 0;
     background-color: #f39c12; }
+
+  }
+
+  .post-title{
+      font-size: 14px;
+  }
+
+  .post-title :hover{
+      color: #f39c12;
+  }
+
 /*
 .posts {
   margin: 0 -30px; }
