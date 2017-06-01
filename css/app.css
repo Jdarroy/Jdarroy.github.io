@@ -207,7 +207,7 @@ input, textarea, button {
     display: none; }
   .menu-item:hover, .menu-item.is-active {
     color: #000; }
-/*
+
 .section {
   padding: 85px 0;
   background-color: #FFF;
@@ -236,7 +236,7 @@ input, textarea, button {
     -ms-transform-origin: 100% 0;
     -webkit-transform-origin: 100% 0;
     transform-origin: 100% 0; }
-*/
+
 .section-title {
   margin-bottom: 140px;
   overflow: hidden;
