@@ -463,7 +463,7 @@ input, textarea, button {
     color: #f39c12;
 }
 
-
+/*
 .posts {
   margin: 0 -30px; }
 
@@ -511,7 +511,7 @@ input, textarea, button {
   padding-top: 20px;
   font-size: 14px;
   text-align: right; }
-
+*/
 .contact-form {
   float: left;
   width: 640px; }
