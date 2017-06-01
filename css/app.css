@@ -137,7 +137,7 @@ input, textarea, button {
 
 /* Modules */
 .header {
-  padding: 70px 0 165px 0;
+  padding: 70px 0 70px 0;
   color: #FFF;
   text-align: center;
   background: url(img/header.jpg) center top fixed;
