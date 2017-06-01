@@ -141,10 +141,10 @@ input, textarea, button {
   padding: 70px 0 165px 0;
   color: #FFF;
   text-align: center;
-  background: url(img/header.jpg) center top fixed;
+  background: url(img/header.jpg) center top fixed;/*
   -moz-background-size: cover;
   -o-background-size: cover;
-  -webkit-background-size: cover;
+  -webkit-background-size: cover;*/
   background-size: cover; }
   .header .btn {
     color: #FFF;
