@@ -229,11 +229,7 @@ input, textarea, button {
     -moz-transform-origin: 0 0;
     -ms-transform-origin: 0 0;
     -webkit-transform-origin: 0 0;
-    transform-origin: 0 0;/*
-    -moz-transform: skewY(-2deg);
-    -ms-transform: skewY(-2deg);
-    -webkit-transform: skewY(-2deg);
-  transform: skewY(-2deg); */}
+    transform-origin: 0 0;}
   .section:after {
     background-color: #dddddd;
     -moz-transform-origin: 100% 0;
