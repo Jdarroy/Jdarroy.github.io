@@ -211,12 +211,12 @@ input, textarea, button {
 
 .section {
   padding: 85px 0;
-  background-color: #FFF;
+  background-color: #dddddd;
   position: relative; }
   .section:before, .section:after {
     content: '';
     display: block;
-    background-color: #FFF;
+    background-color: #dddddd;
     position: absolute;
     top: 0;
     left: 0;
@@ -232,7 +232,7 @@ input, textarea, button {
     -webkit-transform: skewY(-2deg);
     transform: skewY(-2deg); }
   .section:after {
-    background-color: #FFF;
+    background-color: #dddddd;
     -moz-transform-origin: 100% 0;
     -ms-transform-origin: 100% 0;
     -webkit-transform-origin: 100% 0;
@@ -457,6 +457,11 @@ input, textarea, button {
     left: 0;
     background-color: #f39c12; }
 
+  }
+
+  .title{
+      font-size: 16px;
+      color: #f39c12;
   }
 
   .post-title{
