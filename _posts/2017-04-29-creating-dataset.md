@@ -107,7 +107,7 @@ This should return: ``` Dataset [1,2000000, 2,3000000, 3,4000000, 4,5000000] ```
 Because a Dataset works with arrays, create a multidimensional Dataset is really easy, you just have to do:
 
 ```Java
-double[][] myDatasetValues = "{{ 1.2, 2.3}, {3.4, 4.5 }}";
+double[][] myDatasetValues = '{{ 1.2, 2.3}, {3.4, 4.5 }}';
 Dataset myDataset = DatasetFactory.createFromObject(myDatasetValues);
 ```
 
