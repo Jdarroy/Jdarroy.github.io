@@ -455,3 +455,10 @@ input, textarea, button {
 .pagination{
   margin-top: 50px;
 }
+
+div.link_icons{
+	text-align: right;
+	color: white;
+	font-size: 70%;
+	padding: 1%;
+}
