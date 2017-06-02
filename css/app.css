@@ -459,8 +459,6 @@ input, textarea, button {
 div.link_icons{
 	text-align: right;
 	color: white;
-	font-size: 20%;
+	font-size: 25%;
 	padding: 1%;
 }
-
-.footer a { padding: 10px 0 1px;}
