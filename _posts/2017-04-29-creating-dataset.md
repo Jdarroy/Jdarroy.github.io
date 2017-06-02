@@ -134,6 +134,8 @@ Dataset [[1,2000000, 2,3000000],
 To create a N dimensional Dataset, the concept is the same than before, you just give your array of your wanted dimension to the ```createFromObject()``` function:
 
 ```Java
+{% raw  %}
+{%
 double[][][][] myDatasetValues =
 	{{
 		{{ 2, 4}, {4, 53},{ 12, 14}, {14 ,153}},
@@ -144,6 +146,8 @@ double[][][][] myDatasetValues =
 		{{ 5, 7}, {7, 56},{ 13, 16}, {16 ,156}}
 	}};
 Dataset myDataset = DatasetFactory.createFromObject(myDatasetValues);
+%}
+{% endraw %}
 ```
 
 You can also create it by this way :
