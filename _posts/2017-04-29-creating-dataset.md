@@ -44,7 +44,7 @@ Dataset [0,0000000, 0,0000000, 0,0000000, 0,0000000, 0,0000000, 0,0000000, 0,000
 
 
 
- #### 2. Automatic way:
+#### 2. Automatic way:
 
 ```Java
 Dataset myDataset = DatasetFactory.zeros(10);
