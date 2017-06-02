@@ -107,10 +107,8 @@ This should return: ``` Dataset [1,2000000, 2,3000000, 3,4000000, 4,5000000] ```
 Because a Dataset works with arrays, create a multidimensional Dataset is really easy, you just have to do:
 
 ```Java
-"
-double[][] myDatasetValues = {{ 1.2, 2.3}, {3.4, 4.5}};
+double[][] myDatasetValues = {{ {{1.2, 2.3}, {3.4, 4.5}} | escape }};
 Dataset myDataset = DatasetFactory.createFromObject(myDatasetValues);
-"
 ```
 
 But you can do that too:
@@ -132,7 +130,6 @@ Dataset [[1,2000000, 2,3000000],
 To create a N dimensional Dataset, the concept is the same than before, you just give your array of your wanted dimension to the ```createFromObject()``` function:
 
 ```Java
-'
 double[][][][] myDatasetValues =
 	{{
 		{{ 2, 4}, {4, 53},{ 12, 14}, {14 ,153}},
@@ -143,7 +140,6 @@ double[][][][] myDatasetValues =
 		{{ 5, 7}, {7, 56},{ 13, 16}, {16 ,156}}
 	}};
 Dataset myDataset = DatasetFactory.createFromObject(myDatasetValues);
-'
 ```
 
 You can also create it by this way :
