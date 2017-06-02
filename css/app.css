@@ -141,7 +141,6 @@ input, textarea, button {
   color: #FFF;
   text-align: center;
   background: url(img/header.jpg) center top fixed;
-  background-image:url({{ "/img/header.png" | prepend: site.baseurl }})
   -moz-background-size: cover;
   -o-background-size: cover;
   -webkit-background-size: cover;
