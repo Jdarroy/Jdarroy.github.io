@@ -108,10 +108,8 @@ Because a Dataset works with arrays, create a multidimensional Dataset is really
 
 ```Java
 {% raw  %}
-{%  
 double[][] myDatasetValues = {{ 1.2, 2.3}, {3.4, 4.5 }};
 Dataset myDataset = DatasetFactory.createFromObject(myDatasetValues);
-%}
 {% endraw %}
 ```
 
@@ -135,7 +133,6 @@ To create a N dimensional Dataset, the concept is the same than before, you just
 
 ```Java
 {% raw  %}
-{%
 double[][][][] myDatasetValues =
 	{{
 		{{ 2, 4}, {4, 53},{ 12, 14}, {14 ,153}},
@@ -146,7 +143,6 @@ double[][][][] myDatasetValues =
 		{{ 5, 7}, {7, 56},{ 13, 16}, {16 ,156}}
 	}};
 Dataset myDataset = DatasetFactory.createFromObject(myDatasetValues);
-%}
 {% endraw %}
 ```
 
