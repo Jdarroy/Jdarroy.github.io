@@ -167,7 +167,7 @@ a { cursor: pointer; }
 
 	.header { background: transparent; }
 	.navbar-header { padding-left: 15px; }
-	.navbar-brand { width: 256px; height: 42px; margin-top: 10px; margin-left: 15px !important; background: url("images/eclipse_scout_complet_256_42.png");}
+	.navbar-brand { width: 256px; height: 42px; margin-top: 10px; margin-left: 15px !important; background: url("img/eclipse_scout_complet_256_42.png");}
 
 	.navbar-toggle { float: right; margin: 5px 10px 0 0; border: 2px; }
 	.navbar-toggle .icon-bar { height: 3px; }
