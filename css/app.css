@@ -428,6 +428,10 @@ input, textarea, button {
     left: 0;
     background-color: #f39c12; }
 
+.section-contact { padding: 10px 0 30px; background: #474747; font-family: 'Dax-Regular', sans-serif; font-size: 45px; color: #fff; text-align: center; }
+.contact a { font-size: 24px; font-family: 'Dax-Regular', sans-serif; font-size: 18px; color: #fff; text-align: center;}
+
+
 .contact-form {
   float: left;
   width: 640px; }
