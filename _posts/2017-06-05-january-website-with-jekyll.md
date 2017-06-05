@@ -20,6 +20,8 @@ In this post, we will explain how to maintain the January website.
 
 * Knowing Liquid language help
 
+----
+
 ## Folders
 
 Here you have all folders:
@@ -27,6 +29,8 @@ Here you have all folders:
 ![main folder](https://raw.githubusercontent.com/Jdarroy/Internship/master/blogpost/arborescance.PNG)
 
 I will not explain what's in css, fonts, img and js ; it's normal folders. There is not any specialities.
+
+----
 
 ## Includes
 
@@ -36,11 +40,15 @@ footer.html, head.html, header.html contain code that will be written in all HTM
 
 categories.html and category.html are used to class posts but we will explain them later.
 
+----
+
 ## Layouts
 
 Files in layouts folder define the structure of the final page.
 
 ![layouts folder](https://raw.githubusercontent.com/Jdarroy/Internship/master/blogpost/layouts.png)
+
+----
 
 #### default.html && docs.html
 
@@ -49,6 +57,17 @@ defaults.html and docs.html define the main structure of the generated files. Th
 So when Jekyll do the generation he put each file with this structure.
 
 ![default.html](https://raw.githubusercontent.com/Jdarroy/Internship/master/blogpost/default.html.png)
+
+Note:
+{% endraw %}
+
+The line "{{ content }}" means the all file which is called.
+
+{% endraw %}
+
+For example, the file news.html call default as layout, so the content will be what's written in news.html.
+
+----
 
 #### post-doc.html && post.html
 
@@ -75,6 +94,8 @@ Here is the result:
 
 ![result](https://raw.githubusercontent.com/Jdarroy/Internship/master/blogpost/showPostDoc1.png)
 
+----
+
 ## Categories
 
 In this folder you have to create a new file each time you want to create a new category. Then you give a category to your posts and you can filter them.
@@ -82,6 +103,8 @@ In this folder you have to create a new file each time you want to create a new 
 You just have to give him the same name and title, for docs.html for example you have that:
 
 ![categories.docs.html.png](https://raw.githubusercontent.com/Jdarroy/Internship/master/blogpost/categories.docs.html.png)
+
+----
 
 ## Posts
 
@@ -99,4 +122,4 @@ The date is important too because posts are order by date, so if you want to ord
 
 The img is used by the the "news" page, if you don't want to put an img just put "uploads/basic.jpg"
 
-Don't forgot to put the three dash the line before and the line after theese informations !!!
+!!! Don't forgot to put the three dash the line before and the line after theese informations !!!
