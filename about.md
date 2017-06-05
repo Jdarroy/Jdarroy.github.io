@@ -82,4 +82,4 @@ Source Repositories:
 https://github.com/jonahkichwacoders/org.eclipse.dataset
 https://github.com/jonahkichwacoders/org.eclipse.dataset.examples
 https://github.com/eclipse/ice/tree/master/org.eclipse.ice.datastructures
-https://github.com/eclipse/dawnsci/tree/master/org.eclipse.dawnsci.analysis.data...
+https://github.com/eclipse/dawnsci/tree/master/org.eclipse.dawnsci.analysis.dataset
