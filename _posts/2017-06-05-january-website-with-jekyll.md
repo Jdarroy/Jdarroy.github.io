@@ -59,7 +59,7 @@ So when Jekyll do the generation he put each file with this structure.
 ![default.html](https://raw.githubusercontent.com/Jdarroy/Internship/master/blogpost/default.html.png)
 
 Note:
-{% endraw %}
+{% raw %}
 
 The line "{{ content }}" means the all file which is called.
 
