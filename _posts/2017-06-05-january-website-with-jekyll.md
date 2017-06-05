@@ -59,9 +59,13 @@ The two loops write links to posts.
 
 ![2loops](https://raw.githubusercontent.com/Jdarroy/Internship/master/blogpost/2loop.png)
 
+{% raw %}
+
 For the first loop we got two instruction in liquid.
 The instruction "{% for post in site.posts %}" process all posts, then the instruction
 "{% if post.categories contains 'getting-started' %}" filter them by categories.
+
+{% endraw %}
 
 What's inside theese two instruction print the result.
 
