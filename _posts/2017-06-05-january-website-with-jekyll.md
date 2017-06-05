@@ -48,8 +48,6 @@ Files in layouts folder define the structure of the final page.
 
 ![layouts folder](https://raw.githubusercontent.com/Jdarroy/Internship/master/blogpost/layouts.png)
 
-----
-
 #### default.html && docs.html
 
 defaults.html and docs.html define the main structure of the generated files. They got html balise, they include the head, header, content of the file who call it and the footer. There is just one difference between defaults.html and docs.html, just after the include of head.html  and before the body balise, they have a different link to css.
