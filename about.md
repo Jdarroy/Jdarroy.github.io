@@ -79,7 +79,6 @@ The initial contribution is currently actively developed by Oakridge National La
 Source Repository Type:
 GitHub
 Source Repositories:
-https://github.com/jonahkichwacoders/org.eclipse.dataset
-https://github.com/jonahkichwacoders/org.eclipse.dataset.examples
-https://github.com/eclipse/ice/tree/master/org.eclipse.ice.datastructures
-https://github.com/eclipse/dawnsci/tree/master/org.eclipse.dawnsci.analysis.dataset
+[jonahkichwacoders/org.eclipse.dataset]: https://github.com/jonahkichwacoders/org.eclipse.dataset
+[jonahkichwacoders/org.eclipse.dataset.examples]: https://github.com/jonahkichwacoders/org.eclipse.dataset.examples
+[github.com/eclipse/dawnsci/tree/master/org.eclipse]: https://github.com/eclipse/dawnsci/tree/master/org.eclipse.dawnsci.analysis.dataset
