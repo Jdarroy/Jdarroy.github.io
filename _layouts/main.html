@@ -1,0 +1,16 @@
+<!DOCTYPE html>
+<html>
+
+  {% include head.html %}
+  <link rel="stylesheet" href="{{ "/css/app1.css" | prepend: site.baseurl }}">
+
+    <body>
+
+    {% include headerMain.html %}
+
+    {{ content }}
+
+    {% include footer.html %}
+
+    </body>
+</html>
