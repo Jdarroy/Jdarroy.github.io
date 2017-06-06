@@ -74,7 +74,7 @@ layouts/docs.html :
     </body>
 </html>
 ```
-{% raw %}
+{% endraw %}
 Note:
 {% raw %}
 
