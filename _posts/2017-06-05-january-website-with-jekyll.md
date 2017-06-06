@@ -56,7 +56,7 @@ So when Jekyll do the generation he put each file with this structure.
 
 layouts/docs.html :
 {% raw %}
-<code>
+```
 <!DOCTYPE html>
 <html>
 
@@ -73,8 +73,8 @@ layouts/docs.html :
 
     </body>
 </html>
-</code>
-{% endraw %}
+```
+{% raw %}
 Note:
 {% raw %}
 
