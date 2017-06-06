@@ -55,6 +55,20 @@ defaults.html and docs.html define the main structure of the generated files. Th
 So when Jekyll do the generation he put each file with this structure.
 
 layouts/docs.html :
+```Java
+private void getProjectType(@NotNull String workspaceId,
+                            @NotNull String id,
+                            @NotNull AsyncCallback<ProjectTypeDto> callback) {
+
+    final String url = appContext.getDevMachine().getWsAgentBaseUrl() + "/project-type/";
+    asyncRequestFactory.createGetRequest(url)
+                       .header(ACCEPT, APPLICATION_JSON)
+                       .loader(loaderFactory.newLoader("Getting info about project type..."))
+                       .send(newCallback(callback,
+                                         dtoUnmarshallerFactory.newUnmarshaller(ProjectTypeDto.class)));
+
+}
+```
 {% raw %}
 ```HTML
 <!DOCTYPE html>
