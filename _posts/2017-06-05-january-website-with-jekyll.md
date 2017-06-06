@@ -124,15 +124,10 @@ ______________________
 {% endif %}
 {% endfor %}
 ```
-![2loops](https://raw.githubusercontent.com/Jdarroy/Internship/master/blogpost/2loop.png)
-
-
 
 For the first loop we got two instruction in liquid.
 The instruction "{% for post in site.posts %}" process all posts, then the instruction
 "{% if post.categories contains 'getting-started' %}" filter them by categories.
-
-{% endraw %}
 
 What's inside theese two instruction print the result.
 
@@ -149,18 +144,34 @@ Here is the result:
 In this folder you have to create a new file each time you want to create a new category. Then you give a category to your posts and you can filter them.
 
 You just have to give him the same name and title, for docs.html for example you have that:
+```
+---
+layout: default
+title: docs
+---
 
-![categories.docs.html.png](https://raw.githubusercontent.com/Jdarroy/Internship/master/blogpost/categories.docs.html.png)
+{% include category.html %}
 
 ----
-
+```
 ## Posts
 
 Here you store all your posts as markdown files. It's normal mardown files, you just have to write some information before.
 
 For this post for example it's wrote that:
 
+```
+---
+layout: post-doc
+title:  "January Website with Jekyll"
+date:   2017-06-05 11:15:03 +0100
+categories: docs
+img:    "uploads/basic.jpg"
+---
+```
 ![example.entete](https://raw.githubusercontent.com/Jdarroy/Internship/master/blogpost/entete.png)
+
+{% endraw %}
 
 The Layout is really important because it will descibe how your post will be print.
 
