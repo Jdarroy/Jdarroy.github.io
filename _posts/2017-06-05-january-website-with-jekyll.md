@@ -96,6 +96,7 @@ The two loops write links to posts.
 
 {% raw %}
 ```HTML
+<code>
 <div class="posts">
   <div class="title">
     ______________________
@@ -128,7 +129,7 @@ The two loops write links to posts.
   {% endfor %}
   <h2 class="post-title"><a href="{{site.url}}/docs/news/">See more ...</a></h2>
 </div>
-
+</code>
 ```
 Link to the **[file](https://github.com/Jdarroy/Jdarroy.github.io/blob/master/_layouts/post-doc.html)**
 
