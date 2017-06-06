@@ -50,11 +50,29 @@ Files in layouts folder define the structure of the final page.
 
 #### default.html && docs.html
 
-defaults.html and docs.html define the main structure of the generated files. They got html balise, they include the head, header, content of the file who call it and the footer. There is just one difference between defaults.html and docs.html, just after the include of head.html  and before the body balise, they have a different link to css.
+defaults.html and docs.html define the main structure of the generated files. They include the head, header, content of the file who call it and the footer. There is just one difference between defaults.html and docs.html, just after the include of head.html  and before the body balise, they have a different link to css.
 
 So when Jekyll do the generation he put each file with this structure.
 
-![default.html](https://raw.githubusercontent.com/Jdarroy/Internship/master/blogpost/default.html.png)
+layouts/docs.html :
+<code>
+<!DOCTYPE html>
+<html>
+
+  {% include head.html %}
+  <link rel="stylesheet" href="{{ "/css/app1.css" | prepend: site.baseurl }}">
+
+    <body>
+
+    {% include header.html %}
+
+    {{ content }}
+
+    {% include footer.html %}
+
+    </body>
+</html>
+</code>
 
 Note:
 {% raw %}
