@@ -68,7 +68,9 @@ private void getProjectType(@NotNull String workspaceId,
                                          dtoUnmarshallerFactory.newUnmarshaller(ProjectTypeDto.class)));
 
 }
+
 ```
+
 {% highlight html %}
 {% raw %}
 ```HTML
