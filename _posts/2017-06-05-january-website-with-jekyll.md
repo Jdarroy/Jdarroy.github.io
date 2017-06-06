@@ -95,34 +95,39 @@ The two loops write links to posts.
 
 {% raw %}
 ```
-______________________
-<br>
-<b>Getting Started</b>
-</div>
-{% for post in site.posts %}
-{% if post.categories contains 'getting-started' %}
-<div class="post">
+<div class="posts">
+  <div class="title">
+    ______________________
+    <br>
+    <b>Getting Started</b>
+  </div>
+  {% for post in site.posts %}
+  {% if post.categories contains 'getting-started' %}
+  <div class="post">
     <div class="post-content">
-        <h2 class="post-title"><a href="{{ post.url }}"><b>- </b>{{ post.title }}</a></h2>
+      <h2 class="post-title"><a href="{{ post.url }}"><b>- </b>{{ post.title }}</a></h2>
     </div>
-</div>
-{% endif %}
-{% endfor %}
+  </div>
+  {% endif %}
+  {% endfor %}
 
-<div class="title">
-  ______________________
-  <br>
-  <b>News</b>
-</div>
-{% for post in site.posts limit:5 %}
-{% if post.categories contains 'docs' %}
-<div class="post">
+  <div class="title">
+    ______________________
+    <br>
+    <b>News</b>
+  </div>
+  {% for post in site.posts limit:5 %}
+  {% if post.categories contains 'docs' %}
+  <div class="post">
     <div class="post-content">
-        <h2 class="post-title"><a href="{{ post.url }}"><b>- </b>{{ post.title }}</a></h2>
+      <h2 class="post-title"><a href="{{ post.url }}"><b>- </b>{{ post.title }}</a></h2>
     </div>
+  </div>
+  {% endif %}
+  {% endfor %}
+  <h2 class="post-title"><a href="{{site.url}}/docs/news/">See more ...</a></h2>
 </div>
-{% endif %}
-{% endfor %}
+
 ```
 
 For the first loop we got two instruction in liquid.

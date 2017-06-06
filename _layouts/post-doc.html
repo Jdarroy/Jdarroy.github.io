@@ -2,46 +2,46 @@
 layout: docs
 ---
 <section class="section">
-    <div class="l-container">
+  <div class="l-container">
 
-        <div class="col-md-9" id="lefile">
-          <div class="section-content">
-              {{ content }}
+    <div class="col-md-9" id="lefile">
+      <div class="section-content">
+        {{ content }}
+      </div>
+    </div>
+    <div class="col-md-3">
+      <div class="posts">
+        <div class="title">
+          ______________________
+          <br>
+          <b>Getting Started</b>
+        </div>
+        {% for post in site.posts %}
+        {% if post.categories contains 'getting-started' %}
+        <div class="post">
+          <div class="post-content">
+            <h2 class="post-title"><a href="{{ post.url }}"><b>- </b>{{ post.title }}</a></h2>
           </div>
         </div>
-        <div class="col-md-3">
-          <div class="posts">
-            <div class="title">
-              ______________________
-              <br>
-              <b>Getting Started</b>
-            </div>
-              {% for post in site.posts %}
-              {% if post.categories contains 'getting-started' %}
-              <div class="post">
-                  <div class="post-content">
-                      <h2 class="post-title"><a href="{{ post.url }}"><b>- </b>{{ post.title }}</a></h2>
-                  </div>
-              </div>
-              {% endif %}
-              {% endfor %}
+        {% endif %}
+        {% endfor %}
 
-              <div class="title">
-                ______________________
-                <br>
-                <b>News</b>
-              </div>
-              {% for post in site.posts limit:5 %}
-              {% if post.categories contains 'docs' %}
-              <div class="post">
-                  <div class="post-content">
-                      <h2 class="post-title"><a href="{{ post.url }}"><b>- </b>{{ post.title }}</a></h2>
-                  </div>
-              </div>
-              {% endif %}
-              {% endfor %}
-              <h2 class="post-title"><a href="{{site.url}}/docs/news/">See more ...</a></h2>
-            </div>
+        <div class="title">
+          ______________________
+          <br>
+          <b>News</b>
         </div>
+        {% for post in site.posts limit:5 %}
+        {% if post.categories contains 'docs' %}
+        <div class="post">
+          <div class="post-content">
+            <h2 class="post-title"><a href="{{ post.url }}"><b>- </b>{{ post.title }}</a></h2>
+          </div>
+        </div>
+        {% endif %}
+        {% endfor %}
+        <h2 class="post-title"><a href="{{site.url}}/docs/news/">See more ...</a></h2>
+      </div>
     </div>
+  </div>
 </section>
