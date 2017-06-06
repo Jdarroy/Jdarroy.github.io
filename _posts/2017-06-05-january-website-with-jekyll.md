@@ -93,9 +93,40 @@ post.html has no loop, it print only the content and the title of the page which
 post-doc.html has two loop with a condition. This file define which file you want to read.
 The two loops write links to posts.
 
+{% raw %}
+```
+______________________
+<br>
+<b>Getting Started</b>
+</div>
+{% for post in site.posts %}
+{% if post.categories contains 'getting-started' %}
+<div class="post">
+    <div class="post-content">
+        <h2 class="post-title"><a href="{{ post.url }}"><b>- </b>{{ post.title }}</a></h2>
+    </div>
+</div>
+{% endif %}
+{% endfor %}
+
+<div class="title">
+  ______________________
+  <br>
+  <b>News</b>
+</div>
+{% for post in site.posts limit:5 %}
+{% if post.categories contains 'docs' %}
+<div class="post">
+    <div class="post-content">
+        <h2 class="post-title"><a href="{{ post.url }}"><b>- </b>{{ post.title }}</a></h2>
+    </div>
+</div>
+{% endif %}
+{% endfor %}
+```
 ![2loops](https://raw.githubusercontent.com/Jdarroy/Internship/master/blogpost/2loop.png)
 
-{% raw %}
+
 
 For the first loop we got two instruction in liquid.
 The instruction "{% for post in site.posts %}" process all posts, then the instruction
