@@ -55,9 +55,8 @@ defaults.html and docs.html define the main structure of the generated files. Th
 So when Jekyll do the generation he put each file with this structure.
 
 layouts/docs.html :
-{% highlight html %}
 {% raw %}
-
+```html
 <!DOCTYPE html>
 <html>
 
@@ -74,15 +73,11 @@ layouts/docs.html :
 
     </body>
 </html>
-
-{% endraw %}
-{% endhighlight %}
-
+```
 Link to the **[file](https://github.com/Jdarroy/Jdarroy.github.io/blob/master/_layouts/docs.html)**
 
 Note:
 
-{% raw %}
 
 The line "{{ content }}" means the all file which is called.
 
