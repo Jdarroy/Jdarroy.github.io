@@ -97,39 +97,39 @@ The two loops write links to posts.
 {% raw %}
 
 <code>
-<div class="posts">
-  <div class="title">
-    ______________________
-    <br>
-    <b>Getting Started</b>
-  </div>
-  {% for post in site.posts %}
-  {% if post.categories contains 'getting-started' %}
-  <div class="post">
-    <div class="post-content">
-      <h2 class="post-title"><a href="{{ post.url }}"><b>- </b>{{ post.title }}</a></h2>
-    </div>
-  </div>
-  {% endif %}
-  {% endfor %}
-
-  <div class="title">
-    ______________________
-    <br>
-    <b>News</b>
-  </div>
-  {% for post in site.posts limit:5 %}
-  {% if post.categories contains 'docs' %}
-  <div class="post">
-    <div class="post-content">
-      <h2 class="post-title"><a href="{{ post.url }}"><b>- </b>{{ post.title }}</a></h2>
-    </div>
-  </div>
-  {% endif %}
-  {% endfor %}
-  <h2 class="post-title"><a href="{{site.url}}/docs/news/">See more ...</a></h2>
-</div>
-</code>
+<code><div class="posts">
+<code>  <div class="title">
+<code>    ______________________
+<code>    <br>
+<code>    <b>Getting Started</b>
+<code>  </div>
+<code>  {% for post in site.posts %}
+<code>  {% if post.categories contains 'getting-started' %}
+<code>  <div class="post">
+<code>    <div class="post-content">
+<code>      <h2 class="post-title"><a href="{{ post.url }}"><b>- </b>{{ post.title }}</a></h2>
+<code>    </div>
+<code>  </div>
+<code>  {% endif %}
+<code>  {% endfor %}
+<code>
+<code>  <div class="title">
+<code>    ______________________
+<code>    <br>
+<code>    <b>News</b>
+<code>  </div>
+<code>  {% for post in site.posts limit:5 %}
+<code>  {% if post.categories contains 'docs' %}
+<code>  <div class="post">
+<code>    <div class="post-content">
+<code>      <h2 class="post-title"><a href="{{ post.url }}"><b>- </b>{{ post.title }}</a></h2>
+<code>    </div>
+<code>  </div>
+<code>  {% endif %}
+<code>  {% endfor %}
+<code>  <h2 class="post-title"><a href="{{site.url}}/docs/news/">See more ...</a></h2>
+<code></div>
+<code>
 
 Link to the **[file](https://github.com/Jdarroy/Jdarroy.github.io/blob/master/_layouts/post-doc.html)**
 
