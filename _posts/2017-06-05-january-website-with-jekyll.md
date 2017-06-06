@@ -95,7 +95,7 @@ post-doc.html has two loop with a condition. This file define which file you wan
 The two loops write links to posts.
 
 {% raw %}
-
+```HTML
 <code>
 <code><div class="posts"> </code>
 <code>  <div class="title"> </code>
@@ -130,7 +130,7 @@ The two loops write links to posts.
 <code>  <h2 class="post-title"><a href="{{site.url}}/docs/news/">See more ...</a></h2> </code>
 <code></div> </code>
 </code>
-
+```
 Link to the **[file](https://github.com/Jdarroy/Jdarroy.github.io/blob/master/_layouts/post-doc.html)**
 
 For the first loop we got two instruction in liquid.
