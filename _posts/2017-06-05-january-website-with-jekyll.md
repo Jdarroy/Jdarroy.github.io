@@ -10,7 +10,7 @@ In this post, we will explain how to maintain the January website.
 
 ## Requirements
 
-* Install Jekyll (find how to install [here](https://jekyllrb.com/docs/installation/)).
+* Install Jekyll (find how to install **[here](https://jekyllrb.com/docs/installation/)**).
 
 * Knowing how to code in HTML.
 
