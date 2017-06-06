@@ -74,7 +74,7 @@ layouts/docs.html :
     </body>
 </html>
 ```
-Link to the **[[file](https://github.com/Jdarroy/Jdarroy.github.io/blob/master/_layouts/docs.html)**[
+Link to the **[file](https://github.com/Jdarroy/Jdarroy.github.io/blob/master/_layouts/docs.html)**
 
 Note:
 
@@ -130,7 +130,7 @@ The two loops write links to posts.
 </div>
 
 ```
-Link to the **[[file](https://github.com/Jdarroy/Jdarroy.github.io/blob/master/_layouts/post-doc.html)**[
+Link to the **[file](https://github.com/Jdarroy/Jdarroy.github.io/blob/master/_layouts/post-doc.html)**
 
 For the first loop we got two instruction in liquid.
 The instruction "{% for post in site.posts %}" process all posts, then the instruction

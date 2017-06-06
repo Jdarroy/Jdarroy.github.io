@@ -58,7 +58,7 @@ org.apache.commons.math3
 org.apache.commons.lang
 org.slf4j.api
 org.junit
-The initial contribution is currently actively developed by Diamond Light Source and collaborated on by Diamond Light Source, Kichwa Coders, and European Synchrotron Radiation Facility, among others. In the URLs below the [github.com/jonahkichwacoders](https://github.com/jonahkichwacoders) repositories are a fork of the eclipse/dawnsci repository. The fork was created to allow easy refactoring and demonstrate code structure.
+The initial contribution is currently actively developed by Diamond Light Source and collaborated on by Diamond Light Source, Kichwa Coders, and European Synchrotron Radiation Facility, among others. In the URLs below the **[github.com/jonahkichwacoders](https://github.com/jonahkichwacoders)** repositories are a fork of the eclipse/dawnsci repository. The fork was created to allow easy refactoring and demonstrate code structure.
 
 ----
 #### Part 2:
@@ -80,8 +80,8 @@ Source Repository Type:
 GitHub
 Source Repositories:
 
-[jonahkichwacoders/org.eclipse.dataset](https://github.com/jonahkichwacoders/org.eclipse.dataset)
+**[jonahkichwacoders/org.eclipse.dataset](https://github.com/jonahkichwacoders/org.eclipse.dataset)**
 
-[jonahkichwacoders/org.eclipse.dataset.examples](https://github.com/jonahkichwacoders/org.eclipse.dataset.examples)
+**[jonahkichwacoders/org.eclipse.dataset.examples](https://github.com/jonahkichwacoders/org.eclipse.dataset.examples)**
 
-[github.com/eclipse/dawnsci/tree/master/org.eclipse](https://github.com/eclipse/dawnsci/tree/master/org.eclipse.dawnsci.analysis.dataset)
+**[github.com/eclipse/dawnsci/tree/master/org.eclipse](https://github.com/eclipse/dawnsci/tree/master/org.eclipse.dawnsci.analysis.dataset)**
