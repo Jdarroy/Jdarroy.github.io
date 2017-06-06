@@ -74,9 +74,10 @@ layouts/docs.html :
     </body>
 </html>
 ```
-{% endraw %}
+Link to the [file](https://github.com/Jdarroy/Jdarroy.github.io/blob/master/_layouts/docs.html)
+
 Note:
-{% raw %}
+
 
 The line "{{ content }}" means the all file which is called.
 
@@ -129,6 +130,7 @@ The two loops write links to posts.
 </div>
 
 ```
+Link to the [file](https://github.com/Jdarroy/Jdarroy.github.io/blob/master/_layouts/post-doc.html)
 
 For the first loop we got two instruction in liquid.
 The instruction "{% for post in site.posts %}" process all posts, then the instruction
