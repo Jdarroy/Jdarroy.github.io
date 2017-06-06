@@ -56,20 +56,20 @@ So when Jekyll do the generation he put each file with this structure.
 
 layouts/docs.html :
 {% raw %}
-```ruby
+```HTML
 <!DOCTYPE html>
 <html>
 
-  {% include head.html % }
+  {% include head.html %}
   <link rel="stylesheet" href="{{ "/css/app1.css" | prepend: site.baseurl }}">
 
     <body>
 
-    {% include header.html % }
+    {% include header.html %}
 
     {{ content }}
 
-    {% include footer.html % }
+    {% include footer.html %}
 
     </body>
 </html>
@@ -95,7 +95,7 @@ post-doc.html has two loop with a condition. This file define which file you wan
 The two loops write links to posts.
 
 {% raw %}
-```r
+```HTML
 <div class="posts">
   <div class="title">
     ______________________
@@ -151,7 +151,7 @@ Here is the result:
 In this folder you have to create a new file each time you want to create a new category. Then you give a category to your posts and you can filter them.
 
 You just have to give him the same name and title, for docs.html for example you have that:
-```r
+```HTML
 ---
 layout: default
 title: docs
@@ -167,7 +167,7 @@ Here you store all your posts as markdown files. It's normal mardown files, you 
 
 For this post for example it's wrote that:
 
-```r
+```HTML
 ---
 layout: post-doc
 title:  "January Website with Jekyll"
