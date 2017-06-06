@@ -97,39 +97,39 @@ The two loops write links to posts.
 {% raw %}
 
 <code>
-<code><div class="posts">
-<code>  <div class="title">
-<code>    ______________________
-<code>    <br>
-<code>    <b>Getting Started</b>
-<code>  </div>
-<code>  {% for post in site.posts %}
-<code>  {% if post.categories contains 'getting-started' %}
-<code>  <div class="post">
-<code>    <div class="post-content">
-<code>      <h2 class="post-title"><a href="{{ post.url }}"><b>- </b>{{ post.title }}</a></h2>
-<code>    </div>
-<code>  </div>
-<code>  {% endif %}
-<code>  {% endfor %}
-<code>
-<code>  <div class="title">
-<code>    ______________________
-<code>    <br>
-<code>    <b>News</b>
-<code>  </div>
-<code>  {% for post in site.posts limit:5 %}
-<code>  {% if post.categories contains 'docs' %}
-<code>  <div class="post">
-<code>    <div class="post-content">
-<code>      <h2 class="post-title"><a href="{{ post.url }}"><b>- </b>{{ post.title }}</a></h2>
-<code>    </div>
-<code>  </div>
-<code>  {% endif %}
-<code>  {% endfor %}
-<code>  <h2 class="post-title"><a href="{{site.url}}/docs/news/">See more ...</a></h2>
-<code></div>
-<code>
+<code><div class="posts"> </code>
+<code>  <div class="title"> </code>
+<code>    ______________________ </code>
+<code>    <br> </code>
+<code>    <b>Getting Started</b> </code>
+<code>  </div> </code>
+<code>  {% for post in site.posts %} </code>
+<code>  {% if post.categories contains 'getting-started' %} </code>
+<code>  <div class="post"> </code>
+<code>    <div class="post-content"> </code>
+<code>      <h2 class="post-title"><a href="{{ post.url }}"><b>- </b>{{ post.title }}</a></h2> </code>
+<code>    </div> </code>
+<code>  </div> </code>
+<code>  {% endif %} </code>
+<code>  {% endfor %} </code>
+<code> </code>
+<code>  <div class="title"> </code>
+<code>    ______________________ </code>
+<code>    <br> </code>
+<code>    <b>News</b> </code>
+<code>  </div> </code>
+<code>  {% for post in site.posts limit:5 %} </code>
+<code>  {% if post.categories contains 'docs' %} </code>
+<code>  <div class="post"> </code>
+<code>    <div class="post-content"> </code>
+<code>      <h2 class="post-title"><a href="{{ post.url }}"><b>- </b>{{ post.title }}</a></h2> </code>
+<code>    </div> </code>
+<code>  </div> </code>
+<code>  {% endif %} </code>
+<code>  {% endfor %} </code>
+<code>  <h2 class="post-title"><a href="{{site.url}}/docs/news/">See more ...</a></h2> </code>
+<code></div> </code>
+</code>
 
 Link to the **[file](https://github.com/Jdarroy/Jdarroy.github.io/blob/master/_layouts/post-doc.html)**
 
