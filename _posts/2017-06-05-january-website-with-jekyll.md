@@ -69,6 +69,7 @@ private void getProjectType(@NotNull String workspaceId,
 
 }
 ```
+{% highlight javascript %}
 {% raw %}
 ```HTML
 <!DOCTYPE html>
@@ -88,8 +89,10 @@ private void getProjectType(@NotNull String workspaceId,
     </body>
 </html>
 ```
+{% endraw %}
+{% endhighlight %}
 Link to the **[file](https://github.com/Jdarroy/Jdarroy.github.io/blob/master/_layouts/docs.html)**
-
+{% raw %}
 Note:
 
 
