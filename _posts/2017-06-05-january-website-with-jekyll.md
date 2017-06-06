@@ -69,7 +69,7 @@ private void getProjectType(@NotNull String workspaceId,
 
 }
 ```
-{% highlight javascript %}
+{% highlight html %}
 {% raw %}
 ```HTML
 <!DOCTYPE html>
