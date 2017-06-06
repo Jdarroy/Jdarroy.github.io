@@ -169,7 +169,6 @@ categories: docs
 img:    "uploads/basic.jpg"
 ---
 ```
-![example.entete](https://raw.githubusercontent.com/Jdarroy/Internship/master/blogpost/entete.png)
 
 {% endraw %}
 
